@@ -9,31 +9,31 @@ importers:
   .:
     devDependencies:
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
+        specifier: ^3.2.4
         version: 3.2.4(@sveltejs/kit@2.5.27(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.246)(vite@5.4.5))(svelte@5.0.0-next.246)(vite@5.4.5))
       '@sveltejs/kit':
-        specifier: ^2.0.0
+        specifier: ^2.5.27
         version: 2.5.27(@sveltejs/vite-plugin-svelte@4.0.0-next.7(svelte@5.0.0-next.246)(vite@5.4.5))(svelte@5.0.0-next.246)(vite@5.4.5)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^4.0.0-next.6
+        specifier: 4.0.0-next.7
         version: 4.0.0-next.7(svelte@5.0.0-next.246)(vite@5.4.5)
       prettier:
-        specifier: ^3.1.1
+        specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-svelte:
-        specifier: ^3.1.2
+        specifier: ^3.2.6
         version: 3.2.6(prettier@3.3.3)(svelte@5.0.0-next.246)
       svelte:
-        specifier: ^5.0.0-next.1
+        specifier: 5.0.0-next.246
         version: 5.0.0-next.246
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.0.2
         version: 4.0.2(svelte@5.0.0-next.246)(typescript@5.6.2)
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.0.3
+        specifier: ^5.4.5
         version: 5.4.5
 
 packages:
@@ -367,8 +367,8 @@ packages:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
 
-  devalue@5.0.0:
-    resolution: {integrity: sha512-gO+/OMXF7488D+u3ue+G7Y4AA3ZmUnB3eHJXmBTgNHvr4ZNzl36A0ZtG+XCRNYCkYx/bFmw4qtkoFLa+wSrwAA==}
+  devalue@5.8.1:
+    resolution: {integrity: sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==}
 
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
@@ -729,7 +729,7 @@ snapshots:
       '@sveltejs/vite-plugin-svelte': 4.0.0-next.7(svelte@5.0.0-next.246)(vite@5.4.5)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
-      devalue: 5.0.0
+      devalue: 5.8.1
       esm-env: 1.0.0
       import-meta-resolve: 4.1.0
       kleur: 4.1.5
@@ -809,7 +809,7 @@ snapshots:
 
   deepmerge@4.3.1: {}
 
-  devalue@5.0.0: {}
+  devalue@5.8.1: {}
 
   esbuild@0.21.5:
     optionalDependencies:
